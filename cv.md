@@ -53,3 +53,4 @@ function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
 * RSSchool Stage 0
 ## English
 C1 (practice English with my English-speaking friend from Germany and while living in Poland)
+![EfSet](https://user-images.githubusercontent.com/64831760/157106877-c92bd4a6-5d73-4823-895d-ce03bd78bf8f.jpg)
