@@ -1,1 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>CV</title>
+</head>
+<body>
+    <header>
+        <nav class="header__menu">
+            <ul class="nav_list">
+                <li class="nav_li">
+                    <a href="#contacts"><h4>Contacts</h4></a>
+                </li>
+                <li class="nav_li">
+                    <a href="#about"><h4>About me</h4></a>
+                </li>
+                <li class="nav_li">
+                    <a href="#skills"><h4>Skills</h4></a>
+                </li>
+                <li class="nav_li">
+                    <a href="#code"><h4>Code example</h4></a>
+                </li>
+                <li class="nav_li">
+                    <a href="#education"><h4>Education</h4></a>
+                </li>
+                <li class="nav_li">
+                    <a href="#english"><h4>English</h4></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="block1">
+                <section class="foto">
+                    <img width="280" src="photo_2022-04-04_00-59-27.jpg" alt="It's me">
+                </section>
+                <section class="contacts" id="contacts">
+                    <h2>Contacts</h2>
+                    <ul class="aside_list">
+                        <li class="aside_li"><a href="">tel.: +48 502 9 66 444</a></li>
+                        <li class="aside_li"><a href="">e-mail: yuschenko.maria@icloud.com</a></li>
+                        <li class="aside_li"><a href="https://www.linkedin.com/in/%D0%BC%D0%B0%D1%80%D0%B8%D1%8F-%D1%8E%D1%89%D0%B5%D0%BD%D0%BA%D0%BE-9505261a9">LinkedIn</a></li>
+                        <li class="aside_li"><a href="https://instagram.com/molly_kto">Instagram</a></li>
+                    </ul>
+                </section>
+                <section class="education" id="education">
+                    <h2>Education</h2>
+                    <ul>
+                        <li>HTML on <a href="https://ru.code-basics.com/">CodeBasics</a></li>
+                        <li>CSS on <a href="https://ru.code-basics.com/">CodeBasics</a></li>
+                        <li>JS on <a href="https://ru.code-basics.com/">CodeBasics</a> and <a href="https://learn.javascript.ru/">LearnJavaScript</a></li>
+                        <li>RSSchool  Course «JavaScript/Front-end. Stage 0»</li>
+                    </ul>
+                </section>
+                <section class="skills" id="skills">
+                    <h2>Skills</h2>
+                    <p>HTML</p>
+                        <div class="container">
+                          <div class="skills html"></div>
+                        </div>
 
+                    <p>CSS</p>
+                        <div class="container">
+                          <div class="skills css"></div>
+                        </div>
+
+                    <p>JavaScript</p>
+                        <div class="container">
+                          <div class="skills js"></div>
+                        </div>
+                    <p>Git</p>
+                        <div class="container">
+                          <div class="skills git"></div>
+                        </div>
+                </section>
+            </div>
+            <div class="block2">
+                <h1>Maria Yuschenko</h1>
+                <h3>Junior Front-End Engineer</h3>
+                <section class="about" id="about">
+                    <h2>About me</h2>
+                    <p>I am 26 years old. I worked in different spheres, but  two years ago decided to be a part of IT. I started to learn Front-End by myself. And now I am learning it with RSSchool. I know that everything is possible if you really want to do it.</p>
+                </section>
+                <section class="code" id="code">
+                    <h2>Code example</h2>
+                    <pre>
+                        <code class="language-js">
+            function sumTriangularNumbers(n) {
+                let amount = 0;
+               for (let i = 1; i <= n; i++) {
+                 amount +=  0.5 * i * (i + 1);
+               };
+               return amount;
+             }
+             
+             
+             //This function should return n!
+             function factorial(n) {
+               if (n === 0){
+                 return 1;
+               }
+               else if (n >= 1) {
+                 return (n != 1) ? n * factorial(n - 1) : 1;
+               }
+               else {
+                 return null;
+               }
+             }
+            </code>
+                    </pre>
+                </section>
+                <section class="english" id="english">
+                    <h2>English level</h2>
+                    <p>C1 Advanced (according to the <a href="https://www.efset.org/cert/eEaxva">EF SET test</a>)</p>
+                    <img  width="420" src="Без имени.jpg" alt="EFSETsertificate">
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer__wrapper">
+            <a href="https://github.com/yuschenko-maria">My GitHub</a>
+            <img width="10%" src="https://rs.school/images/rs_school_js.svg" alt="logo">
+            <a>2022</a>
+            <a href="https://rs.school/js/">RSSchool JS Course</a>
+        </div>
+    </footer>
+</body>
+</html>

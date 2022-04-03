@@ -1,1 +1,89 @@
+html{
+    scroll-behavior: smooth;
+        color: #463f3a;
+        font-size: medium;
+        font-variant: small-caps;
+        line-height: 25px;
+  }
+  body{
+    background: rgb(255, 255, 255);
+    max-width: 920px;
+    position: inherit;
+    margin: 0 auto;
+    padding: 0 10px;
+}
 
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    max-width: fit-content;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(55, 72, 94)
+}
+.footer__wrapper{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+li{
+    list-style: none;
+    margin-left: -20px;
+}
+pre{
+    background-color: rgb(248, 244, 238);
+    border-radius: 10%;
+    padding: 10px;
+    width: fit-content;
+    font-variant: normal;
+}
+
+h1,
+h2,
+h3{
+    font-variant: small-caps;
+}
+img{
+    border-radius: 40px;
+}
+.foto{
+    border-radius: 20px;
+    margin-left: 25px;
+}
+
+section{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.container {
+  width: 80%; 
+  background-color: #ddd; 
+  border-radius: 3px;
+}
+
+.skills {
+  padding-bottom: 10px; 
+}
+
+.html {width: 90%; ; background-color: #4b4a4a; border-radius: 3px;} 
+.css {width: 80%; background-color: #4b4a4a; border-radius: 3px;} 
+.js {width: 50%; background-color: #4b4a4a; border-radius: 3px;} 
+.git {width: 60%; background-color: #4b4a4a; border-radius: 3px;} 
+
+.nav_list{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    align-items: center;
+}
